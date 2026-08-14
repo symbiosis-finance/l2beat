@@ -37,7 +37,7 @@
       "@remix-run/router": "^1.23.2",
       "glob": "^10.5.0",
       "tar-fs": "^2.1.4",
-      "image-size": "^2.0.2",
+      "image-size": "npm:image-size-next@^2.1.0",
       "elliptic": "^6.6.1",
       "cross-spawn": "^7.0.5"
     }

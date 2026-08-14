@@ -34,7 +34,7 @@ overrides:
   '@remix-run/router': ^1.23.2
   glob: ^10.5.0
   tar-fs: ^2.1.4
-  image-size: ^2.0.2
+  image-size: npm:image-size-next@^2.1.0
   elliptic: ^6.6.1
   cross-spawn: ^7.0.5
 
@@ -601,8 +601,8 @@ importers:
         specifier: ^4.0.3
         version: 4.0.3
       image-size:
-        specifier: ^2.0.2
-        version: 2.0.2
+        specifier: npm:image-size-next@^2.1.0
+        version: image-size-next@2.1.1
       kysely:
         specifier: ^0.28.17
         version: 0.28.17
@@ -5700,9 +5700,9 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  image-size@2.0.2:
-    resolution: {integrity: sha512-IRqXKlaXwgSMAMtpNzZa1ZAe8m+Sa1770Dhk8VkSsP9LS+iHD62Zd8FQKs8fbPiagBE7BzoFX23cxFnwshpV6w==}
-    engines: {node: '>=16.x'}
+  image-size-next@2.1.1:
+    resolution: {integrity: sha512-n+DFjUct+G9mxZck+lvzqrTsqBJvSHMs6iEo//W5iAgRV7oUbrh1JWmKgAEpmyRB5lw6plIQizS1wK1dvrsvAw==}
+    engines: {node: '>=18'}
     hasBin: true
 
   import-in-the-middle@1.13.1:
@@ -12967,7 +12967,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  image-size@2.0.2: {}
+  image-size-next@2.1.1: {}
 
   import-in-the-middle@1.13.1:
     dependencies:
